@@ -23,7 +23,7 @@
 		<h1><?= $pageTitle ?></h1>
 		
 		<p>	This is a new Eclipse.org project.  You can see the proposal 
-<a href="/proposals/myproject">here</a> </p>
+<a href="/proposals/webtools.vjet">here</a> </p>
 
         <p> Want to know more? <a href="/projects/project_summary.php?projectid=my.project">About This Project</a> </p>
 
