@@ -25,12 +25,13 @@
 		<p>	This is a new Eclipse.org project.  You can see the proposal 
 <a href="/proposals/webtools.vjet">here</a> </p>
 
-        <p> Want to know more? <a href="/projects/project_summary.php?projectid=my.project">About This Project</a> </p>
+        <p> Want to know more? <a href="/projects/project_summary.php?projectid=webtools.vjet">About This Project</a> </p>
 
-		<p>If you're a committer on this project, simply connect to the website repository (:extssh:yourid@dev.eclipse.org:/cvsroot/org.eclipse under www/yourproject) and rename the template.php file to index.php, overwriting this page.</p>
+<!--
+		<p>If you're a committer on this project, simply connect to the website repository (:extssh:yourid@dev.eclipse.org:/cvsroot/org.eclipse under www/yourproject) and rename the template.php file to index.php, overwriting this page.</p>-->
 	</div>
 
-	<!-- remove the entire <div> tag to omit the right column!  -->
+	<!-- remove the entire <div> tag to omit the right column! 
 	<div id="rightcolumn">
 		<div class="sideitem">
 			<h6>Related Links</h6>
@@ -46,6 +47,7 @@
 				</div>
 		</div>
 	</div>
+-->
 
 	
 	<?
