@@ -26,32 +26,32 @@
 	
 	# Break the navigation into sections
 	$Nav->addNavSeparator("MyProject", 	"/default");
-	$Nav->addCustomNav("Download", "/project/download.php", "_self", 3);
-	$Nav->addCustomNav("Documentation", "/project/documentation.php", "_blank", 3);
-	$Nav->addCustomNav("Support", "/project/support.php", "_blank", 3);
-	$Nav->addCustomNav("Getting Involved", "/project/developers", "_blank", 3);
+	$Nav->addCustomNav("Download", "/vjet/download.php", "_self", 3);
+	$Nav->addCustomNav("Documentation", "/vjet/documentation.php", "_blank", 3);
+	$Nav->addCustomNav("Support", "/vjet/support.php", "_blank", 3);
+	$Nav->addCustomNav("Getting Involved", "/vjet/developers", "_blank", 3);
 
 	# Define keywords, author and title here, or in each PHP page specifically
-	$pageKeywords	= "xtext, dsl, modeling, domain specific language, textual";
-	$pageAuthor		= "Your name";
-	# $pageTitle 		= "Xtext";
+	$pageKeywords	= "javascript ide static analysis code assist semantic validation";
+	$pageAuthor		= "Justin Early";
+	# $pageTitle 		= "VJET";
 
 
 	# top navigation bar
 	# To override and replace the navigation with your own, uncomment the line below.
 	# $Menu->setMenuItemList(array());
-	# $Menu->addMenuItem("Home", "/project", "_self");
-	# $Menu->addMenuItem("Download", "/project/download.php", "_self");
-	# $Menu->addMenuItem("Documentation", "/project/documentation.php", "_self");
-	# $Menu->addMenuItem("Support", "/project/support.php", "_self");
-	# $Menu->addMenuItem("Developers", "/project/developers", "_self");
+	# $Menu->addMenuItem("Home", "/vjet", "_self");
+	# $Menu->addMenuItem("Download", "/vjet/download.php", "_self");
+	# $Menu->addMenuItem("Documentation", "/vjet/documentation.php", "_self");
+	# $Menu->addMenuItem("Support", "/vjet/support.php", "_self");
+	# $Menu->addMenuItem("Developers", "/vjet/developers", "_self");
 	
-	# To define additional CSS or other pre-body headers
-	# $App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css" href="/default/style.css"/>');
+	$App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css" href="style.css"/>' . "\n\t");
+	$App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css" href="style2.css"/>' . "\n\t");
 	
 	# To enable occasional Eclipse Foundation Promotion banners on your pages (EclipseCon, etc)
 	$App->Promotion = TRUE;
 	
 	# If you have Google Analytics code, use it here
-	# $App->SetGoogleAnalyticsTrackingCode("YOUR_CODE");
+	# $App->SetGoogleAnalyticsTrackingCode("UA-34809342-1");
 ?>
