@@ -25,10 +25,10 @@
 	# $Nav->setLinkList(array());
 	
 	# Break the navigation into sections
-	$Nav->addNavSeparator("MyProject", 	"/default");
+	$Nav->addNavSeparator("VJET JS IDE", 	"/default");
 	$Nav->addCustomNav("Download", "/vjet/download.php", "_self", 3);
-	$Nav->addCustomNav("Documentation", "/vjet/documentation.php", "_blank", 3);
-	$Nav->addCustomNav("Support", "/vjet/support.php", "_blank", 3);
+	$Nav->addCustomNav("Documentation", "http://wiki.eclipse.org/VJET", "_blank", 3);
+	$Nav->addCustomNav("Support", "/vjet/support", "_blank", 3);
 	$Nav->addCustomNav("Getting Involved", "/vjet/developers", "_blank", 3);
 
 	# Define keywords, author and title here, or in each PHP page specifically
@@ -43,7 +43,7 @@
 	# $Menu->addMenuItem("Home", "/vjet", "_self");
 	# $Menu->addMenuItem("Download", "/vjet/download.php", "_self");
 	# $Menu->addMenuItem("Documentation", "http://wiki.eclipse.org/VJET", "_self");
-	# $Menu->addMenuItem("Support", "/vjet/support.php", "_self");
+	# $Menu->addMenuItem("Support", "/vjet/support", "_self");
 	# $Menu->addMenuItem("Developers", "/vjet/developers", "_self");
 	
 	$App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css" href="/vjet/style.css"/>' . "\n\t");
