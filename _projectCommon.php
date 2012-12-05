@@ -42,7 +42,7 @@
 	# $Menu->setMenuItemList(array());
 	# $Menu->addMenuItem("Home", "/vjet", "_self");
 	# $Menu->addMenuItem("Download", "/vjet/download.php", "_self");
-	# $Menu->addMenuItem("Documentation", "/vjet/documentation.php", "_self");
+	# $Menu->addMenuItem("Documentation", "http://wiki.eclipse.org/VJET", "_self");
 	# $Menu->addMenuItem("Support", "/vjet/support.php", "_self");
 	# $Menu->addMenuItem("Developers", "/vjet/developers", "_self");
 	
