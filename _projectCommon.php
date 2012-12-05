@@ -26,10 +26,10 @@
 	
 	# Break the navigation into sections
 	$Nav->addNavSeparator("VJET JS IDE", 	"/default");
-	$Nav->addCustomNav("Download", "/vjet/download.php", "_self", 3);
+	$Nav->addCustomNav("Download", "/vjet/download/", "_self", 3);
 	$Nav->addCustomNav("Documentation", "http://wiki.eclipse.org/VJET", "_blank", 3);
-	$Nav->addCustomNav("Support", "/vjet/support", "_blank", 3);
-	$Nav->addCustomNav("Getting Involved", "/vjet/developers", "_blank", 3);
+	$Nav->addCustomNav("Support", "/vjet/support/", "_blank", 3);
+	$Nav->addCustomNav("Getting Involved", "/vjet/developers/", "_blank", 3);
 
 	# Define keywords, author and title here, or in each PHP page specifically
 	$pageKeywords	= "javascript ide static analysis code assist semantic validation";
@@ -41,10 +41,10 @@
 	# To override and replace the navigation with your own, uncomment the line below.
 	# $Menu->setMenuItemList(array());
 	# $Menu->addMenuItem("Home", "/vjet", "_self");
-	# $Menu->addMenuItem("Download", "/vjet/download.php", "_self");
+	# $Menu->addMenuItem("Download", "/vjet/download/", "_self");
 	# $Menu->addMenuItem("Documentation", "http://wiki.eclipse.org/VJET", "_self");
-	# $Menu->addMenuItem("Support", "/vjet/support", "_self");
-	# $Menu->addMenuItem("Developers", "/vjet/developers", "_self");
+	# $Menu->addMenuItem("Support", "/vjet/support/", "_self");
+	# $Menu->addMenuItem("Developers", "/vjet/developers/", "_self");
 	
 	$App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css" href="/vjet/style.css"/>' . "\n\t");
 	$App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css" href="/vjet/style2.css"/>' . "\n\t");
