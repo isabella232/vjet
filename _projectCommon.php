@@ -46,8 +46,8 @@
 	# $Menu->addMenuItem("Support", "/vjet/support.php", "_self");
 	# $Menu->addMenuItem("Developers", "/vjet/developers", "_self");
 	
-	$App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css" href="style.css"/>' . "\n\t");
-	$App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css" href="style2.css"/>' . "\n\t");
+	$App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css" href="/vjet/style.css"/>' . "\n\t");
+	$App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css" href="/vjet/style2.css"/>' . "\n\t");
 	
 	# To enable occasional Eclipse Foundation Promotion banners on your pages (EclipseCon, etc)
 	$App->Promotion = TRUE;
