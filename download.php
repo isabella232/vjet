@@ -10,7 +10,7 @@
  *    
  *******************************************************************************/
 
-	$pageTitle 		= "MyProject - Download";
+	$pageTitle 		= "VJET JavaScript IDE - Download";
 	$App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css" href="/default/style.css"/>');
 
 	$html  = <<<EOHTML
@@ -22,11 +22,6 @@
 <p><b>Update site:</b> http://download.eclipse.org/vjet/updates-nightly/<br />
 <!--<b>ZIP file: </b><a href="/downloads/download.php?file=/myproject/file.zip">file.zip</a> (10 MiB)</p>-->
 
-<!--
-<h3>Helios - Eclipse 3.6 (unreleased)</h3>
-<p><b>Update site:</b> http://download.eclipse.org/myproject/<br />
-<b>ZIP file: </b><a href="/downloads/download.php?file=/myproject/file.zip">file.zip</a> (10 MiB)</p>
--->
 
 </div>
 EOHTML;
