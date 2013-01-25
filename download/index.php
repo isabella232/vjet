@@ -18,9 +18,16 @@
 <h2>$pageTitle</h2>
 <p>All downloads are provided under the terms and conditions of the <a href="/legal/epl/notice.php">Eclipse Foundation Software User Agreement</a> unless otherwise specified.</p>
 
+<h3>Installing latest release 0.9 </h3>
+<p><b>Update site:</b> http://download.eclipse.org/vjet/updates-0.9
+
+<a href="http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=46875" title="Drag and drop into a running Eclipse Indigo workspace to install VJET JavaScript IDE">
+  <img src="http://marketplace.eclipse.org/sites/all/modules/custom/marketplace/images/installbutton.png"/>
+</a><br />
+
+
 <h3>Nightly Updates </h3>
-<p><b>Update site:</b> http://download.eclipse.org/vjet/updates-nightly/<br />
-<!--<b>ZIP file: </b><a href="/downloads/download.php?file=/myproject/file.zip">file.zip</a> (10 MiB)</p>-->
+<p><b>Update site:</b> http://download.eclipse.org/vjet/updates-nightly<br />
 
 
 </div>
